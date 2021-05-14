@@ -58,7 +58,10 @@
 
 @media(max-width: 700px){
     .footer-card__img{
-        transform: translateX(-3rem);
+        transform: translateX(0rem);
+    }
+    .section1{
+        width: fit-content;
     }
     .section2{
         width: fit-content;
