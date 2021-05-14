@@ -131,6 +131,7 @@
     .text-home-2{
         font-family: 'Nunito';
         size: 40px;
+        width: 200px;
         height: 32px;
         top: 300px;;
         left: 10%;

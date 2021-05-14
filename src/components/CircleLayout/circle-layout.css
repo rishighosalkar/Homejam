@@ -105,13 +105,35 @@ svg circle:nth-child(2):hover{
 @media (max-width: 700px) {
     .circle-layout__container{
         position: absolute;
-        width: 700px;
+        width: 100%;
         display: flex;
         margin-top: 60%;
-        margin-left: 100px;
+        margin-left: 50px;
         justify-content: space-around;
         transform: translateY(-7rem) translateX(-5rem);
     }
 
+    .circle-layout__icon{
+        transform: translateX(1.8rem) translateY(-10.5rem);
+    }
+
+    .circle-layout__text1{
+        margin-left: 75%;
+    }
+    .circle-layout__text2{
+        margin-left: 70%;
+    }
+    
+    .circle-layout__icon__star{
+        transform: translateX(2rem) translateY(-11.75rem);
+    }
+
+    .circle4{
+        display: none;
+    }
+
+    .circle3{
+        display: none;
+    }
     
 }

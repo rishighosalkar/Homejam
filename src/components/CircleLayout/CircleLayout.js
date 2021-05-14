@@ -7,7 +7,7 @@ import star from './assets/star/star.svg';
 function CircleLayout() {
     return (
         <div className = "circle-layout__container">
-            <div className="circle-layout__card">
+            <div className="circle-layout__card circle1">
                 <svg>
                     <circle cx = "80" cy = "80" r = "80" />
                     <circle cx = "80" cy = "80" r = "80" />
@@ -20,7 +20,7 @@ function CircleLayout() {
             
             </div>
 
-            <div className="circle-layout__card">
+            <div className="circle-layout__card circle2">
             <svg>
                 <circle cx = "80" cy = "80" r = "80" />
                 <circle cx = "80" cy = "80" r = "80" />
@@ -36,7 +36,7 @@ function CircleLayout() {
             
             </div>
 
-            <div className="circle-layout__card">
+            <div className="circle-layout__card circle3">
             <svg>
                 <circle cx = "80" cy = "80" r = "80" />
                 <circle cx = "80" cy = "80" r = "80" />
@@ -52,7 +52,7 @@ function CircleLayout() {
             
             </div>
 
-            <div className="circle-layout__card">
+            <div className="circle-layout__card circle4">
                 <svg>
                     <circle cx = "75" cy = "75" r = "80" />
                     <circle cx = "75" cy = "75" r = "80" />
