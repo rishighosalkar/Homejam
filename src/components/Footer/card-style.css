@@ -1,0 +1,106 @@
+.footer-card__card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: #234C97;
+    border-radius: 16px;
+    width: 80%;
+}
+
+
+.footer-card__img{
+    height: 48px;
+    width: 48px;
+    margin-top: 44px;
+    border-radius: 0px;
+    margin-right: 70%;
+}
+
+.footer-card__container{
+    background-color: #0A0B1A;
+    border-radius: 16px;
+    transform: translateX(-0.5rem) translateY(0.5rem);
+    border: #E5AF56 solid;
+}
+
+.footer-card__text1{
+    height: 32px;
+    width: 107px;
+    margin-left: 80px;
+    top: 0px;
+    border-radius: nullpx;
+    font-family: Quattrocento;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    transform: translateY(-55px);
+}
+
+.section2{
+    height: 96px;
+    width: 100%;
+    margin-left: 4%;
+    margin-top: 50px;
+    border-radius: nullpx;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    transform: translateY(-3rem);
+}
+
+@media(max-width: 700px){
+    .footer-card__img{
+        transform: translateX(-3rem);
+    }
+    .section2{
+        width: fit-content;
+    }
+
+    .footer-card__card{
+        margin-left: 5%;
+    }
+}
+
+/*
+.footer-card__singer-name{
+    height: 32px;
+    width: 135px;
+    margin-left: 16px;
+    margin-top: 0;
+    border-radius: nullpx;
+    font-family: Libre Baskerville;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+.footer-card__text2{
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0259EB;
+    height: 32px;
+    width: 100px;
+    margin-left: 16px;
+    margin-top: 5px;
+    border-radius: nullpx;
+    display: flex;
+}
+
+*/
