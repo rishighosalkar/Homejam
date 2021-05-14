@@ -119,4 +119,20 @@
         border: none;
         margin-top: -20px;
     }
+
+    .text-home-1{
+        font-size: 20px;
+        left: 10%;
+        line-height: 48px;
+        height: 48px;
+        text-align: left;
+    }
+
+    .text-home-2{
+        font-family: 'Nunito';
+        size: 40px;
+        height: 32px;
+        top: 300px;;
+        left: 10%;
+    }
 }
