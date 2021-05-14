@@ -14,6 +14,14 @@ const breakPoints = [
   ];
 
 function CardUI() {
+
+    let singer_name = [
+        {name: "Benny Dayal"},
+        {name:"Andrea"},
+        {name: "Shilpa"},
+        {name: "Vijay"}
+        ]
+
     return (
         <div>
             <div>
@@ -28,10 +36,10 @@ function CardUI() {
         
             <div style={{marginTop:"45px"}}>
                 <Carousel breakPoints={breakPoints}>
-                <CardLayout singer={BennyDayal}/>
-                <CardLayout singer={AndreaJeremiah}/>
-                <CardLayout singer={ShilpaRao}/>
-                <CardLayout singer={VijayYesudas}/>
+                <CardLayout singer={BennyDayal} name={singer_name[0].name}/>
+                <CardLayout singer={AndreaJeremiah} name={singer_name[1].name}/>
+                <CardLayout singer={ShilpaRao} name={singer_name[2].name}/>
+                <CardLayout singer={VijayYesudas} name={singer_name[3].name}/>
                 </Carousel>
             </div>        
         </div>

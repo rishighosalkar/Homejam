@@ -29,7 +29,7 @@ export default function Footer() {
                 <Card user_image={review3} />
                 <Card user_image={review1} />
                 <Card user_image={review2}/>
-                <Card/>
+                <Card user_image={review2}/>
                 </Carousel>
             </div>
         </>

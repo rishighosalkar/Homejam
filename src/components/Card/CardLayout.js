@@ -12,7 +12,7 @@ export default function CardLayout(props) {
                         folk
                                 </div>
                     <div className="card-singer-name">
-                        <h3>Benny Dayal</h3>
+                        <h3>{props.name}</h3>
                     </div>
                     <div className="card-text2">
                         <span>More info</span>
